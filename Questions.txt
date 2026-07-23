@@ -1,0 +1,198 @@
+Here's the **complete list of questions** you can ask your bot, organized by category:
+
+---
+
+## 📚 Database Questions (Instant Reply)
+
+### Fire NOC
+```
+What is Fire NOC?
+How long is Fire NOC valid?
+What documents are needed for Fire NOC?
+```
+
+### Fire Extinguishers
+```
+How often should fire extinguishers be inspected?
+What types of fire extinguishers are required?
+Where should fire extinguishers be placed?
+How do I use a fire extinguisher?
+Can I refill a used extinguisher?
+```
+
+### Hydrants
+```
+What is the required pressure for hydrant systems?
+Who can use fire hydrants?
+How often should hydrants be tested?
+What is the minimum water tank capacity?
+```
+
+### Emergency Exits
+```
+How many emergency exits are required in a high-rise building?
+What width should emergency exits be?
+Should emergency exits have signs?
+```
+
+### High Rise Buildings
+```
+What defines a high-rise building?
+What fire safety measures are mandatory for high-rises?
+How many staircases should a high-rise have?
+What is fire load?
+What is compartmentation?
+What is ACMS?
+```
+
+### SOPs
+```
+How often should fire drills be conducted?
+Who conducts fire drills?
+What is the evacuation procedure?
+How long should evacuation take?
+What is a fire audit?
+What is Form A-1?
+What is Form B-1?
+```
+
+### Penalty
+```
+What is the penalty for non-compliance?
+Who imposes fire safety penalties?
+Can a building be sealed for violations?
+Is there an appeal process for penalties?
+```
+
+### Latest Amendments
+```
+What changed in the 2025 amendment?
+When is Form B-1 required?
+Who issues Form V certificate?
+What is the auditor license fee?
+How long is a Licensed Agency valid?
+What is IoT in Fire Safety?
+How does IoT help in fire safety?
+```
+
+### General FAQ
+```
+What is the Maharashtra Fire Prevention Act 2006?
+What is the difference between Form A-1 and Form B-1?
+What is the National Building Code (NBC)?
+What is the Indian Standard Code for fire safety?
+What are Active and Passive fire protection measures?
+What is a POTS contact from a fire panel?
+What is the fee for an auditor licence?
+Can I submit documents online?
+What is the validity of a Licensed Agency licence?
+What is a Licensed Agency?
+```
+
+---
+
+## 🤖 AI/Emergency Questions (Ollama Answers)
+
+### Fire Emergencies
+```
+The fire is high, how can I safely exit my apartment?
+I cannot move down as there is more fire, so what should I do?
+The smoke from fire has increased, how can I breathe?
+What to do if my house catches on fire?
+What to do if my gas cylinder catches fire?
+How to stop a kitchen fire?
+What should I do if I smell gas in my kitchen?
+How to use a fire blanket?
+```
+
+### Natural Disasters
+```
+There is an earthquake, how do I protect myself?
+What to do during a flood?
+How to prepare for a cyclone?
+What safety measures during a tsunami?
+```
+
+### Vehicle Emergencies
+```
+I'm stuck inside my car, how do I break free?
+What to do if my car catches fire?
+How to escape from a sinking car?
+```
+
+### Home Safety
+```
+How to prevent electrical fires at home?
+How to childproof my home for fire safety?
+What fire safety equipment should every home have?
+How to store flammable liquids safely?
+What is a smoke detector and how does it work?
+```
+
+### Building Safety
+```
+What is the fire safety rule for hospitals?
+How many fire extinguishers does a school need?
+What are the fire safety rules for shopping malls?
+What fire safety measures are needed for underground parking?
+What fire safety rules apply to theaters?
+```
+
+### Emergency Planning
+```
+What is a fire evacuation plan?
+How to train staff for fire emergencies?
+How to create a family emergency plan?
+What should be in an emergency kit?
+```
+
+### General Safety
+```
+What is the most common cause of fires?
+Are fire sprinklers mandatory?
+What is the difference between smoke detector and heat detector?
+Who do I call in case of fire?
+Is my building safe from fire?
+What happens during a fire inspection?
+Why do I need fire safety training?
+How much does a fire NOC cost?
+```
+
+### First Aid & Health
+```
+How to treat a burn injury?
+What to do for smoke inhalation?
+How to perform CPR?
+```
+
+### Electrical Safety
+```
+What to do if there is a short circuit at my home?
+How to safely use extension cords?
+What are signs of faulty wiring?
+```
+
+---
+
+## 💬 Commands
+
+| Command | What It Does |
+|---------|-------------|
+| `hi`, `hello`, `hey` | Greeting + menu |
+| `menu`, `help`, `start` | Shows main menu |
+| `thanks`, `thank you` | Thank you reply |
+| `bye`, `goodbye`, `tata` | Goodbye message |
+| `Fire NOC` (exact) | Shows category questions |
+| `Penalty` (exact) | Shows category questions |
+
+---
+
+## 🌐 Multilingual
+
+| Language | Example |
+|----------|---------|
+| English | `What is Fire NOC?` |
+| मराठी | `आग लागल्यावर काय करावे?` |
+| हिंदी | `आग लगने पर सबसे पहले क्या करना चाहिए?` |
+
+---
