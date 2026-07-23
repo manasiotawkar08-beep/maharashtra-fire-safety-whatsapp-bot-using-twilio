@@ -26,34 +26,35 @@ A WhatsApp chatbot for Maharashtra Fire Safety information using **Twilio** + **
 7. Start ngrok: `ngrok http 8000`
 8. Set Twilio webhook to `https://<ngrok-url>/api/webhook.php`
 
-**Project-Structure**
-
-   MAHARASHTRA-FIRE-BOT/
+Project Structure
+MAHARASHTRA-FIRE-BOT/
 ├── admin/
-│ ├── dashboard.php # Main admin control panel
-│ ├── login.php # Admin authentication
-│ ├── logout.php # Session termination
-│ ├── logs.php # System logs viewer
-│ ├── qna.php # Q&A management interface
-│ └── setup.php # System setup wizard
+│   ├── dashboard.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── logs.php
+│   ├── qna.php
+│   └── setup.php
 ├── api/
-│ ├── ollama.php 
-│ ├── twilio_config.php 
-│ ├── twilio_stats.php 
-│ └── webhook.php 
+│   ├── ollama.php
+│   ├── twilio_config.php
+│   ├── twilio_stats.php
+│   └── webhook.php
 ├── database/
-│ └── fire_bot.sql # MySQL database schema
+│   └── fire_bot.sql
 ├── includes/
-│ ├── config.php 
-│ ├── db.php 
-│ └── logger.php 
-├── index.php 
-├── Questions.txt 
-├── README.md 
-├── reset.php 
-├── test_ollama.php 
-├── test_send.php 
-└── test.php 
+│   ├── config.php
+│   ├── db.php
+│   └── logger.php
+├── index.php
+├── Questions.txt
+├── README.md
+├── reset.php
+├── test.php
+├── test_ollama.php
+└── test_send.php
+
+
 
 
 **Default Admin Login**
