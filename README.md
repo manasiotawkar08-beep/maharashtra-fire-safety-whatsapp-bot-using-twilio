@@ -26,7 +26,8 @@ A WhatsApp chatbot for Maharashtra Fire Safety information using **Twilio** + **
 7. Start ngrok: `ngrok http 8000`
 8. Set Twilio webhook to `https://<ngrok-url>/api/webhook.php`
 
-Project Structure
+**Project Structure**
+
 MAHARASHTRA-FIRE-BOT/
 ├── admin/
 │   ├── dashboard.php
@@ -50,11 +51,9 @@ MAHARASHTRA-FIRE-BOT/
 ├── Questions.txt
 ├── README.md
 ├── reset.php
-├── test.php
 ├── test_ollama.php
-└── test_send.php
-
-
+├── test_send.php
+└── test.php
 
 
 **Default Admin Login**
