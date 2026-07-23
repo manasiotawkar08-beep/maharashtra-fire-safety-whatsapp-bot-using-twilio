@@ -30,30 +30,31 @@ A WhatsApp chatbot for Maharashtra Fire Safety information using **Twilio** + **
 
 MAHARASHTRA-FIRE-BOT/
 ├── admin/
-│   ├── dashboard.php
-│   ├── login.php
-│   ├── logout.php
-│   ├── logs.php
-│   ├── qna.php
-│   └── setup.php
+│   ├── dashboard.php # Main admin control panel
+│   ├── login.php # Admin authentication
+│   ├── logout.php # Session termination
+│   ├── logs.php # System logs viewer
+│   ├── qna.php # Q&A management interface
+│   └── setup.php # System setup wizard
 ├── api/
-│   ├── ollama.php
-│   ├── twilio_config.php
-│   ├── twilio_stats.php
-│   └── webhook.php
+│   ├── ollama.php #Ollama AI API endpoint
+│   ├── twilio_config.php # Twilio configuration
+│   ├── twilio_stats.php # SMS statistics and analytics
+│   └── webhook.php # Webhook handler
 ├── database/
-│   └── fire_bot.sql
+│  └── fire_bot.sql # MySQL database schema
 ├── includes/
-│   ├── config.php
-│   ├── db.php
-│   └── logger.php
-├── index.php
-├── Questions.txt
-├── README.md
-├── reset.php
-├── test_ollama.php
-├── test_send.php
-└── test.php
+│   ├── config.php # Main configuration file
+│   ├── db.php # Database connection handler
+│   └── logger.php # Logging utilities
+├── index.php # Main entry point
+├── Questions.txt # Predefined Q&A dataset
+├── README.md # This file
+├── reset.php # System reset utility
+├── test_ollama.php # Ollama integration test
+├── test_send.php # SMS sending test
+└── test.php # General test script
+
 
 
 **Default Admin Login**
