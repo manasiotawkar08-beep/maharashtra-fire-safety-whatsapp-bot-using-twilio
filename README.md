@@ -67,6 +67,4 @@ Never commit `includes/config.php` with real credentials. Use placeholder values
 
 
 
-## ⚠️ Security
-Never commit `includes/config.php` with real credentials!
-Use `config.example.php` as a template.
+
