@@ -28,32 +28,34 @@ A WhatsApp chatbot for Maharashtra Fire Safety information using **Twilio** + **
 
 **Project Structure**
 
+```
 MAHARASHTRA-FIRE-BOT/
 ├── admin/
-│   ├── dashboard.php # Main admin control panel
-│   ├── login.php # Admin authentication
-│   ├── logout.php # Session termination
-│   ├── logs.php # System logs viewer
-│   ├── qna.php # Q&A management interface
-│   └── setup.php # System setup wizard
+│   ├── dashboard.php        # Main admin control panel
+│   ├── login.php            # Admin authentication
+│   ├── logout.php           # Session termination
+│   ├── logs.php             # System logs viewer
+│   ├── qna.php              # Q&A management interface
+│   └── setup.php            # System setup wizard
 ├── api/
-│   ├── ollama.php #Ollama AI API endpoint
-│   ├── twilio_config.php # Twilio configuration
-│   ├── twilio_stats.php # SMS statistics and analytics
-│   └── webhook.php # Webhook handler
+│   ├── ollama.php           # Ollama AI API endpoint
+│   ├── twilio_config.php    # Twilio configuration
+│   ├── twilio_stats.php     # SMS statistics and analytics
+│   └── webhook.php          # Webhook handler
 ├── database/
-│  └── fire_bot.sql # MySQL database schema
+│   └── fire_bot.sql         # MySQL database schema
 ├── includes/
-│   ├── config.php # Main configuration file
-│   ├── db.php # Database connection handler
-│   └── logger.php # Logging utilities
-├── index.php # Main entry point
-├── Questions.txt # Predefined Q&A dataset
-├── README.md # This file
-├── reset.php # System reset utility
-├── test_ollama.php # Ollama integration test
-├── test_send.php # SMS sending test
-└── test.php # General test script
+│   ├── config.php           # Main configuration file
+│   ├── db.php               # Database connection handler
+│   └── logger.php           # Logging utilities
+├── index.php                # Main entry point
+├── Questions.txt            # Predefined Q&A dataset
+├── README.md                # This file
+├── reset.php                # System reset utility
+├── test_ollama.php          # Ollama integration test
+├── test_send.php            # SMS sending test
+└── test.php                 # General test script
+```
 
 
 
